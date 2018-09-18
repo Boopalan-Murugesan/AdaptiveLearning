@@ -1,0 +1,5 @@
+com\ejyle\webservices\status\ProjectStatus.class
+com\ejyle\webservices\services\CustomerServiceImpl.class
+com\ejyle\webservices\services\EmailService.class
+com\ejyle\webservices\bean\Customer.class
+com\ejyle\webservices\dao\CustomerDaoImpl.class
