@@ -160,7 +160,7 @@ public class CustomerDao
 				registrationEmail.setTo(customer.getEmail());
 				registrationEmail.setSubject("Temporary Password");
 				registrationEmail.setText("Hi " + F_Name + ","
-						+ "\n \n \n It looks like you requested a new password. \n\n If that sounds right, you can use this temporary password to login your account: "
+						+ "\n This mail from (SAGAR) team.\n It looks like you requested a new password. \n you can use this temporary password to login your account: "
 						+ randomStr);
 				registrationEmail.setFrom("boopalangc@gmail.com");
 				emailService.sendEmail(registrationEmail);
